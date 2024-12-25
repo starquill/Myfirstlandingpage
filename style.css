@@ -15,12 +15,13 @@ body{
 
 .header{
     display: flex;
-    padding: 8px;
+    padding: 30px;
 }
 
 .logo{
     margin-left: 300px;
-    font-size: 48px;
+    font-size: 24px;
+    color: #f9faf8;
     margin-right: auto;
 }
 
@@ -29,20 +30,23 @@ body{
 }
 
 ul{
+    padding: 0%;
+    margin: 0%;
     list-style: none;
     display: flex;
     gap: 22px;
 }
 
 a{
-    font-size: 30px;
-    color: white;
+    font-size: 24px;
+    color: #f9faf8;
     text-decoration: none;
 }
 
 .info{
     display: flex;
-    gap: 50px;
+    gap: 18px;
+    color: #e5e7eb;
 }
 
 .about{
@@ -58,7 +62,9 @@ a{
 }
 
 .ext{
-    font-size: 52px;
+    font-size: 48px;
+    font-weight: 900px;
+    color: #f9faf8;
 }
 
 button{
@@ -80,7 +86,9 @@ button{
 
 .Galleryhead{
     text-align: center;
-    font-size: 50px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
     margin-bottom: 40px;
     margin-top: 80px;
 }
@@ -121,7 +129,9 @@ button{
 }
 
 .quote{
-   font-size: 40px;
+    color: #1f2937;
+   font-size: 36px;
+   font-style: italic;
    padding-top: 100px;
    margin-left: 350px;
    margin-right: 350px;
