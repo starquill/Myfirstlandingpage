@@ -6,12 +6,6 @@ body{
     font: Roboto;
 }
 
-.logo{
-    margin-left: 300px;
-    font-size: 48px;
-    margin-right: auto;
-}
-
 .first{
     color: white;
     background-color: #1f2937;
@@ -22,6 +16,16 @@ body{
 .header{
     display: flex;
     padding: 8px;
+}
+
+.logo{
+    margin-left: 300px;
+    font-size: 48px;
+    margin-right: auto;
+}
+
+.links{
+    margin-right: 400px;
 }
 
 ul{
@@ -36,18 +40,9 @@ a{
     text-decoration: none;
 }
 
-.links{
-    margin-right: 400px;
-}
-
 .info{
     display: flex;
     gap: 50px;
-
-}
-
-.ext{
-    font-size: 52px;
 }
 
 .about{
@@ -60,6 +55,10 @@ a{
     flex-direction: column;
     gap: 16px;
     justify-content: center;
+}
+
+.ext{
+    font-size: 52px;
 }
 
 button{
@@ -76,7 +75,7 @@ button{
 .second{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 30gitpx;
 }
 
 .Galleryhead{
@@ -108,4 +107,30 @@ button{
     border-radius: 12px;
     height:200px;
     width: 300px;
+}
+
+.third{
+    background-color: rgb(212, 210, 210);
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.quote{
+   font-size: 40px;
+   padding-top: 100px;
+   margin-left: 350px;
+   margin-right: 350px;
+}
+
+.quoteauthor{ 
+    font-size:20px ;
+    text-align: right;
+    margin-bottom: 100px;
+    margin-right: 350px;
+    margin-left: auto;
 }
