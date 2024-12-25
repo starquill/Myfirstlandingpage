@@ -72,3 +72,40 @@ button{
     border-radius: 24px;
     border: black;
 }
+
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Galleryhead{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.Gallery{
+    font-size: 20px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 16px;
+}
+
+.Gallerypic{
+    border: rgb(112, 112, 240) solid 5px;
+    border-radius: 12px;
+    height:200px;
+    width: 300px;
+}
